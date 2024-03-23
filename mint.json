@@ -1,51 +1,35 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Cleek Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0077C2",
+    "light": "#005983",
+    "dark": "#0077C2",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0077C2",
+      "to": "#005983"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@cleek.id"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Home",
+    "url": "https://cleek.id"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Quickstart",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "/introduction"
     }
   ],
   "navigation": [
@@ -54,38 +38,38 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "group": "Features",
+          "pages": [
+            "usage/features/vision",
+            "usage/features/tts",
+            "usage/features/text-to-image",
+            "usage/features/plugin-system",
+            "usage/features/agent-market",
+            "usage/features/multi-ai-providers",
+            "usage/features/local-llm",
+            "usage/features/pwa",
+            "usage/features/mobile",
+            "usage/features/theme"
+          ]
+        },
+        {
+          "group": "AI Model Providers",
+          "pages": [
+            {
+              "group": "Ollama Usage",
+              "pages": [
+                "usage/providers/ollama/gemma"
+              ]
+            },
+            "usage/providers/groq"
+          ]
+        }
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/ikaagussetiawan",
+    "github": "https://github.com/senja24"
   }
 }
